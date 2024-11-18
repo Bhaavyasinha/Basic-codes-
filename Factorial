@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    int a = 1;
+    printf ("enter a number whose factorial is to be calculated \n ");
+    scanf ("%d",&n);
+    if (n>0){
+        for (int i = n; i>=1;i--){
+            a = a*i;
+            
+        }
+        printf ("%d", a);
+    }
+    else 
+    printf ("Not an integer ");
+   
+
+    return 0;
+}
